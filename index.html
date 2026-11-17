@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Haoming Liu</title>
+  <meta name="description" content="Haoming (Hammond) Liu, CS Ph.D. student at NYU.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%E2%98%AF%EF%B8%8F%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <ul class="nav-social">
+        <li><a href="mailto:%68%61%6F%6D%69%6E%67.%6C%69%75@%6E%79%75.%65%64%75" title="Email" aria-label="Email"><i class="fas fa-envelope"></i></a></li>
+        <li><a href="https://scholar.google.com/citations?user=Oo-rRfYAAAAJ" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a></li>
+        <li><a href="https://github.com/hmdliu" title="GitHub" aria-label="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a></li>
+      </ul>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#misc">Misc</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- ===== About ===== -->
+    <section id="about" class="section about">
+      <div class="profile">
+        <img class="photo" src="assets/img/me.jpg" alt="Hammond Liu">
+        <h1 class="profile-name">Haoming Liu</h1>
+        <p class="profile-aka">Also known as Hammond / 哈蒙德</p>
+        <p class="profile-role">Computer Science Ph.D. Student @ NYU</p>
+      </div>
+
+      <div class="bio">
+        <p>I’m a Computer Science Ph.D. student at <a href="https://shanghai.nyu.edu/" target="_blank" rel="noopener">NYU Shanghai</a> and <a href="https://engineering.nyu.edu/" target="_blank" rel="noopener">NYU Tandon</a>, advised by Professor <a href="https://whongyi.github.io/" target="_blank" rel="noopener">Hongyi Wen</a>. I also work closely with Professor <a href="https://sheng-jie-wang.github.io/" target="_blank" rel="noopener">Shengjie Wang</a>. Prior to that, I received my B.S. in Computer Science from NYU Shanghai in 2023, where I was advised by Professor <a href="https://shanghai.nyu.edu/academics/faculty/directory/li-guo" target="_blank" rel="noopener">Li Guo</a>.</p>
+        <p>I’m broadly interested in <strong>generative modeling</strong> and <strong>representation learning</strong>. I seek both theoretical and empirical understanding of state-of-the-art paradigms, with the goal of making them more efficient, scalable, and interpretable.</p>
+        <p>I devote one hour each week to open conversations with junior students. Please feel free to email me if you’d like to discuss research or life. We are entering an era of rapid change, where many of us are driven by achievement and busy rushing forward. May you all find the simple joys of being human: savoring the process, discovering what you love, and having some fun along the way. 😊</p>
+      </div>
+    </section>
+
+    <!-- ===== News ===== -->
+    <!-- Newest first. Only the first three items show until "Show more" is clicked. -->
+    <section id="news" class="section">
+      <h2 class="section-title">News</h2>
+      <ul class="news-list collapsed">
+        <li><span class="news-date">2026/10</span><span><a href="https://maps-research.github.io/cfg-geometry/" target="_blank" rel="noopener">Learning to Be Guided</a> is released. 🎉</span></li>
+        <li><span class="news-date">2026/09</span><span>My WeChat Official Account 蒙德观复 is now live. Feel free to follow! 🤣</span></li>
+        <li><span class="news-date">2026/09</span><span>Exploring 🇩🇰 🇳🇴 🇸🇪 around ECCV. Love it. 😎</span></li>
+        <li><span class="news-date">2026/06</span><span><a href="https://maps-research.github.io/hig/" target="_blank" rel="noopener">HIG</a> is accepted to ECCV 2026, see you in Malmö 🇸🇪!</span></li>
+        <li><span class="news-date">2026/05</span><span>Visiting my friends in NYC, Boston, Denver, and the Bay Area. ✌️</span></li>
+        <li><span class="news-date">2026/03</span><span><a href="https://maps-research.github.io/from-navigation-to-refinement/" target="_blank" rel="noopener">From Navigation to Refinement</a> is accepted to CVPR 2026, see you in Denver 🇺🇸!</span></li>
+      </ul>
+      <button type="button" class="news-toggle" aria-expanded="false">Show more</button>
+    </section>
+
+    <!-- ===== Selected Publications ===== -->
+    <section id="research" class="section">
+      <h2 class="section-title">Selected Research</h2>
+
+      <article class="pub-feature">
+        <a class="pub-thumb" href="https://maps-research.github.io/cfg-geometry/" target="_blank" rel="noopener">
+          <img src="assets/img/pubs/cfg_geometry.png" alt="CFG-compatible representation learning" loading="lazy">
+        </a>
+        <div class="pub-body">
+          <h3 class="pub-title"><a href="https://maps-research.github.io/cfg-geometry/" target="_blank" rel="noopener">Learning to Be Guided: Shaping Latent Geometry for Classifier-Free Guidance</a></h3>
+          <p class="pub-authors"><span class="me">Haoming Liu</span>, Junhao Zhu, Shaoyi Zheng, Yuanhe Guo, Jinnuo Liu, Shenji Wan, Hongyi Wen</p>
+          <p class="pub-venue"><strong>arXiv Preprint</strong></p>
+          <p class="pub-tldr">We regularize the class geometry of latent spaces to make them work better with classifier-free guidance.</p>
+          <div class="btn-links">
+            <a class="btn" href="https://arxiv.org/abs/2610.22885" target="_blank" rel="noopener">arXiv</a>
+            <a class="btn" href="https://maps-research.github.io/cfg-geometry/" target="_blank" rel="noopener">Website</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub-feature">
+        <a class="pub-thumb" href="https://maps-research.github.io/from-navigation-to-refinement/" target="_blank" rel="noopener">
+          <img src="assets/img/pubs/from_navigation_to_refinement.png" alt="Two-stage nature of flow-based diffusion models" loading="lazy">
+        </a>
+        <div class="pub-body">
+          <h3 class="pub-title"><a href="https://maps-research.github.io/from-navigation-to-refinement/" target="_blank" rel="noopener">From Navigation to Refinement: Revealing the Two-Stage Nature of Flow-based Diffusion Models through Oracle Velocity</a></h3>
+          <p class="pub-authors"><span class="me">Haoming Liu</span>, Jinnuo Liu, Yanhao Li, Liuyang Bai, Yunkai Ji, Yuanhe Guo, Shenji Wan, Hongyi Wen</p>
+          <p class="pub-venue"><strong>CVPR 2026 (Findings)</strong></p>
+          <p class="pub-tldr">We reveal flow matching’s implicit two-stage training target and how it shapes model behavior.</p>
+          <div class="btn-links">
+            <a class="btn" href="http://arxiv.org/abs/2512.02826" target="_blank" rel="noopener">arXiv</a>
+            <a class="btn" href="https://openaccess.thecvf.com/content/CVPR2026F/html/Liu_From_Navigation_to_Refinement_Revealing_the_Two-Stage_Nature_of_Flow-based_CVPRF_2026_paper.html" target="_blank" rel="noopener">Paper</a>
+            <a class="btn" href="https://maps-research.github.io/from-navigation-to-refinement/" target="_blank" rel="noopener">Website</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub-feature">
+        <a class="pub-thumb" href="https://maps-research.github.io/hig/" target="_blank" rel="noopener">
+          <img src="assets/img/pubs/hig.png" alt="Histogram-constrained image generation overview" loading="lazy">
+        </a>
+        <div class="pub-body">
+          <h3 class="pub-title"><a href="https://maps-research.github.io/hig/" target="_blank" rel="noopener">Histogram-constrained Image Generation</a></h3>
+          <p class="pub-authors"><span class="me">Haoming Liu</span>, Yuanhe Guo, Yijia Cao, Shenji Wan, Hongyi Wen</p>
+          <p class="pub-venue"><strong>ECCV 2026</strong></p>
+          <p class="pub-tldr">A training-free approach for exact control over distributional properties during diffusion sampling.</p>
+          <div class="btn-links">
+            <a class="btn" href="http://arxiv.org/abs/2606.31683" target="_blank" rel="noopener">arXiv</a>
+            <a class="btn" href="https://eccv.ecva.net/virtual/2026/poster/4232" target="_blank" rel="noopener">Paper</a>
+            <a class="btn" href="https://maps-research.github.io/hig/" target="_blank" rel="noopener">Website</a>
+            <a class="btn" href="https://github.com/MAPS-research/hig" target="_blank" rel="noopener">Code</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ===== Miscellaneous ===== -->
+    <section id="misc" class="section">
+      <h2 class="section-title">Misc</h2>
+
+      <div id="teaching" class="subsection">
+        <h3 class="subsection-title">Teaching &amp; Mentoring</h3>
+        <p>Being trusted to explain an idea or help someone find their direction is a great privilege to me. I served as a Teaching Assistant for <em>CSCI-SHU 360: Machine Learning</em> for two wonderful semesters in Fall 2024 and Spring 2025. Beyond the classroom, I have mentored undergraduate and K-12 students through tech bootcamps, research projects, and course tutoring.</p>
+      </div>
+
+      <div id="hobbies" class="subsection">
+        <h3 class="subsection-title">Hobbies &amp; Interests</h3>
+        <p><strong>Disclaimer:</strong> I remain a beginner in most of the hobbies I pursue, but I always have fun! 😎</p>
+        <p>I am deeply curious about fundamental questions of <i>how we exist and relate to the world</i>. This curiosity has led me to explore <strong>philosophy</strong> (e.g., Confucianism, Buddhism, and Taoism), <strong>esoteric practices</strong> (e.g., fortune-telling, divination, and meditation), and various <strong>spirituality</strong>. I also enjoy connecting with people, so I try to learn a few greetings in as many <strong>languages</strong> as I can. I enjoy most sports, but perhaps because I am a bit lazy, my favorite remains <strong>city walks</strong>. I love <strong>music</strong> too, though I know little about music theory; I have learned a bit in <a href="https://drive.google.com/file/d/1FIbted0xexPGmICnCvYdNJ9pF79JJYN1/view?usp=sharing" target="_blank" rel="noopener">guitar</a> and <a href="https://drive.google.com/file/d/1j1Pa_fWC1yaWlt0eKOtUHazS57xZT6Qq/view?usp=sharing" target="_blank" rel="noopener">guqin</a>.</p>
+      </div>
+
+      <div id="friends" class="subsection">
+        <h3 class="subsection-title">My Friends 💜</h3>
+        <!-- TODO -->
+        <p>I’ve been fortunate to meet many awesome friends on my journey and share a lot of amazing moments with them.</p>
+        <p>First, a shout-out to my longtime roommates:</p>
+        <ul>
+          <li><a href="https://cs.shanghai.nyu.edu/phd-students/zixuan-dong-dongzixuan" target="_blank" rel="noopener">Zixuan</a> is a kendo lover. 🗡️</li>
+          <li><a href="https://nigellu.github.io/" target="_blank" rel="noopener">Nigel</a> is seasoned outdoor enthusiast. 🚴</li>
+          <li>Both of them are drinks connoisseurs. 🍷</li>
+        </ul>
+        <p>I had a great time with my friends during undergrad, though sadly many of them don’t have homepages for me to link here:</p>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/haohai-pang-8074631b0/" target="_blank" rel="noopener">Haohai</a> and I often play <a href="https://drive.google.com/file/d/1vL-Ok1Ghw1BQlANy-HNJ4C3skSg57NEG/view?usp=sharing" target="_blank" rel="noopener">pool</a> together. 🎱</li>
+          <li><a href="https://haorui.li/" target="_blank" rel="noopener">Harry</a> and <a href="https://gaaaavin.github.io/" target="_blank" rel="noopener">Xinhao</a> are talented photographers. 📷</li>
+          <li><a href="https://qianyu-zhu.github.io/" target="_blank" rel="noopener">Julie</a> is a math whiz who turns coffee into theorems. ☕️</li>
+        </ul>
+        <p>I’ve also found many close friends during my PhD (quite a few of whom were still undergrads when we met):</p>
+        <ul>
+          <li><a href="https://ricercarg.github.io/" target="_blank" rel="noopener">Yuanhe</a> is a 100% quiet introvert. 🤐</li>
+          <li><a href="https://cs.shanghai.nyu.edu/phd-students/yuxuan-xia-xiayuxuan" target="_blank" rel="noopener">Yuxuan</a> is a 100% unhinged extrovert. 🤦</li>
+          <li><a href="https://lucasliuxinqi.github.io/" target="_blank" rel="noopener">Lucas</a> is a professional Pokémon Trainer. ⚡</li>
+          <li><a href="https://patrickhshs.github.io/" target="_blank" rel="noopener"> Lil Pat</a> is a real rapper who spits straight fire. 🔥</li>
+          <li><a href="https://balechen.github.io/" target="_blank" rel="noopener">Bale</a> and <a href="https://cs.shanghai.nyu.edu/phd-students/ivana-li-liyifan" target="_blank" rel="noopener">Ivana</a> can sing a cappella while rock climbing. 🧗</li>
+          <li><a href="https://tinaliu0123.github.io/" target="_blank" rel="noopener">Tina</a> is our great-grandma: zero tolerance, maximum roasts. 👵</li>
+          <li><a href="https://joliachen.github.io/" target="_blank" rel="noopener">Jolia</a> is one of the few people who can out-walk me on a city walk. 🚶</li>
+          <li>Put <a href="https://www.shaoyizheng.me/" target="_blank" rel="noopener">Shaoyi</a>, <a href="https://wenboluu.github.io/" target="_blank" rel="noopener">Wenbo</a>, and <a href="https://akutagawa1998.github.io/" target="_blank" rel="noopener">Nagi</a> in the same room, and you get a free comedy show. 🎙️</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">Latest update: <span id="last-updated">Nov 2026</span>. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.</div>
+  </footer>
+
+  <script>
+    // Highlight the nav link of the section currently in view.
+    (function () {
+      var links = document.querySelectorAll('.nav-links a');
+      var sections = Array.prototype.map.call(links, function (a) {
+        return document.querySelector(a.getAttribute('href'));
+      });
+      function update() {
+        var offset = window.scrollY + window.innerHeight * 0.35;
+        var current = 0;
+        sections.forEach(function (s, i) {
+          if (s && s.offsetTop <= offset) current = i;
+        });
+        if (window.innerHeight + window.scrollY >= document.body.scrollHeight - 2) {
+          current = sections.length - 1;
+        }
+        links.forEach(function (a, i) {
+          if (i === current) a.setAttribute('aria-current', 'true');
+          else a.removeAttribute('aria-current');
+        });
+      }
+      window.addEventListener('scroll', update, { passive: true });
+      window.addEventListener('resize', update);
+      update();
+    })();
+
+    // Expand / collapse older news items.
+    (function () {
+      var list = document.querySelector('.news-list');
+      var toggle = document.querySelector('.news-toggle');
+      if (!list || !toggle) return;
+      if (list.children.length <= 3) {
+        toggle.hidden = true;
+        return;
+      }
+      toggle.addEventListener('click', function () {
+        var collapsed = list.classList.toggle('collapsed');
+        toggle.setAttribute('aria-expanded', String(!collapsed));
+        toggle.textContent = collapsed ? 'Show more' : 'Show less';
+      });
+    })();
+
+    // Fill in "Last updated" from the page's Last-Modified time (set by GitHub Pages on deploy).
+    (function () {
+      var el = document.getElementById('last-updated');
+      var date = new Date(document.lastModified);
+      if (!el || isNaN(date)) return;
+      el.textContent = date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+    })();
+  </script>
+</body>
+</html>
