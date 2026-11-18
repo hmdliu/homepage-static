@@ -45,7 +45,9 @@ html {
 
 /* PC: scale the whole page with the viewport, like zooming. The root size is the
    smaller of two fits: the container takes ~86% of the viewport width, and
-   About + the first three news items (~41.5rem tall) fit in one screen. */
+   About + the first three news items + "Show more" (~40.7rem tall) fit in one
+   screen with ~0.8rem to spare below. The About -> News gap is tightened on PC
+   (see .about below) to make this budget work. */
 @media (min-width: 992px) {
   html {
     font-size: clamp(15px, min(86vw / 58.75, 100vh / 41.5), 19px);
@@ -238,6 +240,13 @@ main.container {
 
 .bio p:last-child {
   margin-bottom: 0;
+}
+
+/* PC: tighter gap above News so it fits the one-screen budget in the root font-size. */
+@media (min-width: 992px) {
+  .about {
+    margin-bottom: 1.25rem;
+  }
 }
 
 @media (max-width: 720px) {
