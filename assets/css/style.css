@@ -163,6 +163,10 @@ main.container {
   scroll-margin-top: calc(var(--nav-height) + 1.5rem);
 }
 
+.section:last-child {
+  margin-bottom: 0;
+}
+
 .section-title {
   margin: 0 0 1rem;
   font-size: 1.85rem;
@@ -404,7 +408,7 @@ main.container {
 /* ---------- Footer ---------- */
 
 .footer {
-  padding: 1.5rem 0 2.5rem;
+  padding: 1.5rem 0;
   border-top: 1px solid var(--border);
   color: var(--muted);
   font-size: 0.85rem;
